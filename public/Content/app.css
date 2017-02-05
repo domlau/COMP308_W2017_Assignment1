@@ -17,14 +17,19 @@ a {
   color: #00B7FF;
 }
 
-.container {
+.body_container {
   margin-right:auto;
   margin-left:auto;
-  height: fit-content;
   background-color: black;
   opacity:1;
 }
 
 .navbar-text{
   float:right;
+  
+}
+
+.navbar{
+  background-color: #8c9f7c;
+  border-color: #4c5147;
 }

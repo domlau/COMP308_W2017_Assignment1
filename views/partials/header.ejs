@@ -12,7 +12,7 @@
    </head>
    <body>
  
-   <nav class="navbar navbar-default" role="navigation">
+   <nav class="navbar navbar" role="navigation">
      <!-- Brand and toggle get grouped for better mobile display -->
      <div class="navbar-header">
        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -28,27 +28,27 @@
      <div class="collapse navbar-collapse navbar-ex1-collapse">
        <ul class="nav navbar-nav navbar-right">
          <% if(title == "Home") { %>
-           <li class="active"><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
+           <li class="navbar_active"><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
          <% } else { %>
            <li><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
          <% } %>
          <% if(title == "About") { %>
-          <li class="active"><a href="/about"><i class="fa fa-info fa-lg"></i> About</a></li>
+          <li class="navbar_active"><a href="/about"><i class="fa fa-info fa-lg"></i> About</a></li>
          <% } else { %>
            <li><a href="/about"><i class="fa fa-info fa-lg"></i> About</a></li>
          <% } %>
          <% if(title == "Projects") { %>
-           <li class="active"><a href="/projects"><i class="fa fa-gear fa-lg"></i> Projects</a></li>
+           <li class="navbar_active"><a href="/projects"><i class="fa fa-gear fa-lg"></i> Projects</a></li>
          <% } else { %>
            <li><a href="/projects"><i class="fa fa-gear fa-lg"></i> Projects</a></li>
          <% } %>
          <% if(title == "Services") { %>
-           <li class="active"><a href="/services"><i class="fa fa-map fa-lg"></i> Services</a></li>
+           <li class="navbar_active"><a href="/services"><i class="fa fa-map fa-lg"></i> Services</a></li>
          <% } else { %>
            <li><a href="/services"><i class="fa fa-map fa-lg"></i> Services</a></li>
          <% } %>
          <% if(title == "Contact") { %>
-           <li class="active"><a href="/contact"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+           <li class="navbar_active"><a href="/contact"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
          <% } else { %>
            <li><a href="/contact"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
          <% } %>
