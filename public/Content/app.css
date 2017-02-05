@@ -2,8 +2,29 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height:100%;
+  width:100%;
+  background-image: url(../Assets/images/waterfall.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+   opacity:0.9;
+   padding-bottom: 70px;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+  margin-right:auto;
+  margin-left:auto;
+  height: fit-content;
+  background-color: black;
+  opacity:1;
+}
+
+.navbar-text{
+  float:right;
 }
