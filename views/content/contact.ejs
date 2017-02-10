@@ -1,15 +1,30 @@
+<!--Name: Dominic Lau 300766421
+    File name: contact.ejs
+    Website name: Contact Me
+    Description: Display my contact information -->
 <% include ../partials/header.ejs %>
   <!--MAIN CONTENT  -->
   <div class="body_container">
     <div class="row">
       <div class="col-md-offset-3 col-md-6">
-        <h1>
+        <h1 style="font-size:100px">
           <%= title %>
-        </h1>
-        <p>
-          Welcome to <%= title %>
-        </p>
+          </h1>
       </div>
-    </div>
+          
+      <div class="list_contactme">
+        <dl>
+          <dt>School email</dt>
+          <dd>
+            <i class="fa fa-envelope fa-2x"><a href="mailto:dlau28@my.centennialcollege.ca">dlau28@my.centennialcollege.ca</i></a>
+          </dd>
+          <dt>Personal email</dt>
+          <dd>
+            <i class="fa fa-envelope fa-2x"><a href="mailto:dominic.k.y.lau@gmail.com">dominic.k.y.lau@gmail.com</i></a>
+          </dd>
+        </dl>
+      </div>
+   </div>
   </div>
-<% include ../partials/footer.ejs%>
+
+  <% include ../partials/footer.ejs%>
