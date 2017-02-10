@@ -2,11 +2,11 @@
     File name: app.css
     Description: Custom css page.
 */
+
+/* */
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  height:100%;
-  width:100%;
   background-image: url(../Assets/images/waterfall.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -23,9 +23,10 @@ a {
 .body_container {
   margin-right:auto;
   margin-left:auto;
-  height:100%;
+  height: 1200px;
   background-color: black;
   opacity:1;
+  color:white;
 }
 
 .navbar-text{
@@ -88,4 +89,8 @@ a {
 }
 .dl_list_contactme{
   text-align: center;
+}
+
+.intro{
+  font-size:x-large;
 }
