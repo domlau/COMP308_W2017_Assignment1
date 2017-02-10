@@ -23,6 +23,7 @@ a {
 .body_container {
   margin-right:auto;
   margin-left:auto;
+  height:100%;
   background-color: black;
   opacity:1;
 }
@@ -64,4 +65,16 @@ a {
 .profile_picture{
   height: 500px;
   width: 340px;
+}
+.android{
+  text-align: center;
+  font-size:large;
+}
+.portfolio{
+  text-align: center;
+  font-size:large;
+}
+.casestudy{
+  text-align: center;
+  font-size:large;
 }
